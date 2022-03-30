@@ -1,0 +1,395 @@
+/* @Try krisna about page */
+body{
+    background-color: white
+    
+}
+.box-about{
+   margin: 0px 0px;
+    width:100%;
+}
+.box-about .who{
+    
+    padding: 150px 40px 0px;
+    /* margin-top:150px ; */
+    margin-bottom: 50px;
+}
+.box-about .who:last-child{
+    padding: 150px 40px;
+}
+/* mycredit */
+        .box-about .my-detail{
+            padding: 10px 40px;
+        }
+
+        .box-about .my-detail .detail-text{
+            padding: 80px 0px;
+        }
+
+
+        .pot{
+            margin-bottom: 50px;
+        }
+        .box-about .who-img{
+            height: 450px;
+            padding-top: 100px;
+        }
+        .box-about .my-detail-img{
+            padding: 0px ;
+        }
+        .detail-text .icons a{
+            color: #198754;
+            text-decoration: none;
+            font-size: 30px;
+            transition: 0.5s;
+            padding: 0px 2px;
+        }
+        .detail-text .icons a:hover{
+            color: #08b665;
+        }
+        .detail-text .myname{
+            font-weight: bold;
+            font-size: 28px;
+        }
+        .detail-text .generation{
+            font-size: 20px;
+            padding-top: 10px;
+        }
+
+
+
+
+/* end My image */
+.who-img .about-img{
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.who-img .about-img:hover{
+    transform: scale(1.1);
+}
+
+.brand-name{
+    color: #198754;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 36px;
+    padding: 20px 0px;
+    transition: 0.5s;
+}
+.brand-name:hover{
+    letter-spacing:4px;
+    color: #08b665;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.445);
+}
+.detail-about{
+   font-size: 20px;
+   line-height: 35px;
+}
+.btn-go{
+    text-align: center;
+    padding: 10px;
+}
+.btn-go a{
+  text-decoration: none;
+    background-color: #198754;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 35px;
+    font-size: 18px;
+    /* letter-spacing: 2px; */
+
+    transition: 0.3s;
+}
+.btn-go a:hover{
+    background-color:#08b665 ;
+    letter-spacing: 2px;
+}
+
+/* Version */
+.version-box{
+    display: flex;
+}
+
+/* End versoin */
+
+
+
+
+
+
+
+
+/*  */
+/* Responsive solution */
+
+/* Large devices (desktop, 992px and up */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{   
+    /* my detail */
+    .box-about .who:nth-child(2) {
+        padding-top: 100px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .box-about .my-detail .detail-text{
+        padding:50px 0px;
+    }
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{      
+    .box-about .who{
+        padding: 100px 20px 50px;
+        margin-bottom: 0px;
+    }
+    
+    .box-about .who-img{
+        height: 400px;
+        padding-top: 0px;
+    }
+    .brand-name{
+        /* color: #fffb00; */
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 30px;
+        padding: 16px 0px;
+        transition: 0.5s;
+    }
+    .brand-name:hover{
+        letter-spacing:4px;
+        color: #08b665;
+        text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.445);
+    }
+    .detail-about{
+    font-size: 18px;
+    line-height: 35px;
+    }
+    
+    .btn-go a{
+        padding: 6px 26px;
+        font-size: 15px;
+    }
+    .btn-go a:hover{
+        background-color: #198754;
+        letter-spacing: 3px;
+    }
+    /* version detail box */
+    .box-about .who:nth-child(2){
+        padding: 10px 20px 50px;
+        margin-bottom: 0px;
+    }
+    /* my credit */
+       
+        .box-about .my-detail{
+            padding: 0px 0px;
+        }
+        .box-about .my-detail .detail-text{
+            padding:50px 0px;
+        }
+        .detail-text .generation{
+            font-size: 17px;
+            padding-top: 8px;
+        }
+        .detail-text .icons a{
+            font-size: 27px;
+            padding: 0px;
+        }
+        .detail-about .btn-go a{
+            font-size: 50px;
+        }
+        .box-about .who:nth-child(2) {
+            padding-top: 50px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+
+
+   /* .version .who-img:nth-child(2){
+        padding-top:0px;
+    } */
+    /* #idver{
+        padding-top: 10px;
+    }
+    .version-box .var-img{
+        order: 2;
+    }
+    .version.box .var-detail{
+        order: 1;
+    } */
+}
+/* Small devices (landscape phone, 576px and up */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    /* about box */
+    .box-about{
+        width: 100%;
+    }
+    .box-about .who{
+            margin: 0px;
+        padding:100px 10px 20px;
+    }
+    .box-about .who-img{
+        height: 400px;
+        padding: 10px 12px 50px;
+    }
+    .brand-name{
+        /* color: #0055ff; */
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 33px;
+        padding: 16px 0px;
+        transition: 0.5s;
+    }
+    .brand-name:hover{
+        letter-spacing:4px;
+        color: #08b665;
+        text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.445);
+    }
+    .detail-about{
+    font-size: 18px;
+    line-height: 35px;
+    }
+    
+    .btn-go a{
+        padding: 4px 25px;
+        font-size: 14px;
+    }
+    .btn-go a:hover{
+        background-color: #198754;
+        letter-spacing: 3px;
+    }
+    .btn-go{
+        float:left;
+    }
+    /* End about box */
+    #idver{
+        padding-top: 10px;
+    }
+    .version-box .var-img{
+        order: 2;
+    }
+    .version-box .var-detail{
+        order: 1;
+    }
+    .box-about .who:nth-child(2){
+        padding: 10px 20px 50px;
+        margin-bottom: 0px;
+    }
+
+    /* my credit */
+        .box-about .my-detail{
+            padding: 0px 20px;
+        }
+        .box-about .my-detail .detail-text{
+        padding-top: 0px;
+        }
+        .brand-name{
+            font-size: 28px;
+        }
+        
+        .detail-text .generation{
+            font-size: 17px;
+            padding-top: 8px;
+        }
+        .detail-text .myname{
+            font-size: 26px;
+        }
+        .detail-text .icons a{
+            font-size: 27px;
+            padding: 0px;
+        }
+}
+
+/* Extra small devices (protrait phone , less that 567px)*/
+@media (max-width: 575.98px)
+{
+        
+    /* about box */
+    .box-about{
+        width: 100%;
+       
+    }
+    .box-about .who{
+        
+            margin: 0px;
+        padding:80px 10px 10px;
+    }
+    .box-about .who-img{
+        height: 350px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .brand-name{
+        /* color: #e01616; */
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 28px;
+        padding: 15px 0px;
+        margin: 0px;
+        transition: 0.5s;
+        text-align: center;
+    }
+    .brand-name:hover{
+        letter-spacing:3px;
+        color: #198754;
+        text-shadow:none;
+    }
+    .detail-about{
+    font-size: 15px;
+    line-height: 35px;
+    }
+    
+    .btn-go a{
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    .btn-go a:hover{
+        background-color: #198754;
+        letter-spacing: 3px;
+    }
+    .btn-go{
+        float:left;
+    }
+  
+    /* End about box */
+     /* End about box */
+     #idver{
+        padding-top: 10px;
+    }
+    .version-box .var-img{
+        order: 2;
+    }
+    .version-box .var-detail{
+        order: 1;
+    }
+    .box-about .who:nth-child(2){
+        padding: 10px 20px 20px;
+        margin-bottom: 0px;
+    }
+      /* my credit */
+      .box-about .my-detail{
+        padding: 0px 20px;
+    }
+    .box-about .my-detail .detail-text{
+    padding-top: 0px;
+    }
+    .brand-name{
+        font-size: 26px;
+        padding: 12px;
+    }
+    .detail-text .generation{
+        font-size: 17px;
+        padding-top: 6px;
+    }
+    .detail-text .myname{
+        font-size: 24px;
+    }
+    .detail-text .icons a{
+        font-size: 24px;
+        padding: 0px;
+    }
+
+
+}
